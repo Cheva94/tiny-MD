@@ -1,0 +1,5 @@
+comp, opts
+clang-10, -O2 -march=native -funroll-loops
+clang-10, -O3 -march=native -funroll-loops
+gcc-9, -O3 -march=native -funroll-loops
+gcc-9, -Ofast -march=native -ffast-math -funroll-loops -floop-block

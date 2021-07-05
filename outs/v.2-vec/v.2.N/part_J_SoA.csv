@@ -1,0 +1,19 @@
+# LAB = 1 - N = 256 a 5324 - CODE = SoA - COMPILER: gcc-9
+# FLAGS = -Ofast -march=native -ffast-math -funroll-loops -floop-block
+# OBJ = barrer partículas con flags óptimos
+# CPU = jupiterace
+N,GFLOPS
+256,17.922558
+256,17.579114
+500,18.899701
+500,18.992389
+864,19.451247
+864,19.524901
+1372,19.839223
+1372,19.807335
+2048,20.126472
+2048,20.057675
+2916,20.857833
+2916,20.836906
+4000,20.320235
+5324,20.236043

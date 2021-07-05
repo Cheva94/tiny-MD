@@ -1,0 +1,52 @@
+comp, opts
+clang, -O2 -march=native -funroll-loops
+clang, -O3 -march=native -funroll-loops
+<<<<<<< HEAD
+gcc, -O3 -march=native -funroll-loops
+gcc, -Ofast -march=native -ffast-math -funroll-loops -floop-block
+=======
+clang, -O3 -march=native -ffast-math -funroll-loops
+clang, -Ofast
+clang, -Ofast -march=native
+clang, -Ofast -march=native -ffast-math
+clang, -Ofast -march=native -funroll-loops
+clang, -Ofast -march=native -ffast-math -funroll-loops
+gcc, -O0
+gcc, -O1
+gcc, -O1 -march=native
+gcc, -O1 -march=native -ffast-math
+gcc, -O1 -march=native -funroll-loops
+gcc, -O1 -march=native -floop-block
+gcc, -O1 -march=native -ffast-math -funroll-loops
+gcc, -O1 -march=native -ffast-math -floop-block
+gcc, -O1 -march=native -funroll-loops -floop-block
+gcc, -O1 -march=native -ffast-math -funroll-loops -floop-block
+gcc, -O2
+gcc, -O2 -march=native
+gcc, -O2 -march=native -ffast-math
+gcc, -O2 -march=native -funroll-loops
+gcc, -O2 -march=native -floop-block
+gcc, -O2 -march=native -ffast-math -funroll-loops
+gcc, -O2 -march=native -ffast-math -floop-block
+gcc, -O2 -march=native -funroll-loops -floop-block
+gcc, -O2 -march=native -ffast-math -funroll-loops -floop-block
+gcc, -O3
+gcc, -O3 -march=native
+gcc, -O3 -march=native -ffast-math
+gcc, -O3 -march=native -funroll-loops
+gcc, -O3 -march=native -floop-block
+gcc, -O3 -march=native -ffast-math -funroll-loops
+gcc, -O3 -march=native -ffast-math -floop-block
+gcc, -O3 -march=native -funroll-loops -floop-block
+gcc, -O3 -march=native -ffast-math -funroll-loops -floop-block
+gcc, -Ofast
+gcc, -Ofast -march=native
+gcc, -Ofast -march=native -ffast-math
+gcc, -Ofast -march=native -funroll-loops
+gcc, -Ofast -march=native -floop-block
+gcc, -Ofast -march=native -ffast-math -funroll-loops
+gcc, -Ofast -march=native -ffast-math -floop-block
+gcc, -Ofast -march=native -funroll-loops -floop-block
+gcc, -Ofast -march=native -ffast-math -funroll-loops -floop-block
+>>>>>>> Lab1
+
